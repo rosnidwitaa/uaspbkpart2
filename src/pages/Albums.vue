@@ -1,6 +1,6 @@
 <template>
     <q-page class="container">
-      <h1>Album</h1>
+      <h1>ALBUMS</h1>
       <q-list bordered class="album-list">
         <q-item v-for="album in albums" :key="album.id" clickable @click="goToAlbum(album.id)" class="album-item">
           <q-item-section>
